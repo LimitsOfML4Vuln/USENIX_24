@@ -216,13 +216,7 @@ vpp_train = separate_vulns_and_patches(vpp_train)
 vpp_valid = separate_vulns_and_patches(vpp_valid)
 vpp_test = separate_vulns_and_patches(vpp_test)
 
-if machine == "localhost":
-    vpp_train = vpp_train.iloc[:5]
-    vpp_valid = vpp_valid.iloc[:5]
-    vpp_test = vpp_test.iloc[:5]
-    codexglue_train = codexglue_train.iloc[:5]
-    codexglue_valid = codexglue_valid.iloc[:5]
-    codexglue_test = codexglue_test.iloc[:5]
+
 
 vpp_train_encodings, vpp_train_labels = encodeDataframe(vpp_train)
 vpp_valid_encodings, vpp_valid_labels = encodeDataframe(vpp_valid)
