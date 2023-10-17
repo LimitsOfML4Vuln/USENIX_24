@@ -325,10 +325,7 @@ for epoch in range(num_epochs):
 
     for k, TF_TO_APPLY_ON_TEST in enumerate(semantic_preserving_transformations):
         
-        if machine == "cluster":
-            m3=mydata.iloc[list(test_index)]
-        else:
-            m3=mydata.iloc[list(test_index)[:8]]
+        m3=mydata.iloc[list(test_index)]
         
         m3 = apply_transformation(m3, semantic_preserving_transformations, TF_TO_APPLY_ON_TEST, training_set_sample_neg, training_set_sample_pos, TF_TO_APPLY_ON_TEST)
 
