@@ -1,0 +1,21 @@
+CodeXGLUE & UniXcoder & 0.693 & -0.043 $\downarrow$ & -0.011 $\uparrow$ & -0.050 $\downarrow$ \\ 
+CodeXGLUE & CoTexT & 0.673 & -0.022 $\downarrow$ & -0.014 $\uparrow$ & -0.030 $\downarrow$ \\ 
+CodeXGLUE & GraphCodeBERT & 0.655 & -0.015 $\downarrow$ & -0.006 $\uparrow$ & -0.021 $\downarrow$ \\ 
+CodeXGLUE & CodeBERT & 0.651 & -0.034 $\downarrow$ & -0.000 $\uparrow$ & -0.040 $\downarrow$ \\ 
+CodeXGLUE & VulBERTa & 0.639 & -0.017 $\downarrow$ & -0.004 $\uparrow$ & -0.025 $\downarrow$ \\ 
+CodeXGLUE & PLBart & 0.633 & -0.021 $\downarrow$ & -0.007 $\uparrow$ & -0.026 $\downarrow$ \\ \hline
+ &  &  & \textbf{-0.025} $\downarrow$ & \textbf{-0.007} $\uparrow$ & \textbf{-0.032} $\downarrow$ \\ \hline
+VulDeePecker & UniXcoder & 0.880 & -0.028 $\downarrow$ & -0.012 $\uparrow$ & -0.054 $\downarrow$ \\ 
+VulDeePecker & CoTexT & 0.873 & -0.007 $\downarrow$ & -0.005 $\uparrow$ & -0.018 $\downarrow$ \\ 
+VulDeePecker & GraphCodeBERT & 0.869 & -0.093 $\downarrow$ & -0.006 $\uparrow$ & -0.091 $\downarrow$ \\ 
+VulDeePecker & CodeBERT & 0.873 & -0.045 $\downarrow$ & -0.007 $\uparrow$ & -0.082 $\downarrow$ \\ 
+VulDeePecker & VulBERTa & 0.875 & -0.067 $\downarrow$ & -0.011 $\uparrow$ & -0.057 $\downarrow$ \\ 
+VulDeePecker & PLBart & 0.865 & -0.014 $\downarrow$ & -0.007 $\uparrow$ & -0.035 $\downarrow$ \\ \hline
+ &  &  & \textbf{-0.043} $\downarrow$ & \textbf{-0.008} $\uparrow$ & \textbf{-0.056} $\downarrow$ \\ 
+
+
+
+Average restoration for CodeXGLUE: 69.0
+Average fruther drops for CodeXGLUE: 30.2
+Average restoration for VulDeePecker: 66.2
+Average fruther drops for VulDeePecker: 77.5
